@@ -4,7 +4,7 @@
 		<name>Varethys Custom Aurora Files</name>
 		<author url="https://github.com/Klinkerklank">Klinkerklank</author>
 		<update version="1.0">
-			<file name="varethys.xml" url="temp.xml" />
+			<file name="varethys.xml" url="https://raw.githubusercontent.com/Klinkerklank/dnd-varethys/refs/heads/main/varethys.xml?token=GHSAT0AAAAAADKMCLWRGJGAJJYEGHK6GB5M2FXA35Q" />
 		</update>
 	</info>
 	<element name="Pangolin" type="Magic Item" source="Varethys" id="ID_VARETHYS_PANGOLIN">
