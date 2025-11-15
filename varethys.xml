@@ -3,23 +3,23 @@
 	<info>
 		<name>Varethys Custom Aurora Files</name>
 		<author url="https://github.com/Klinkerklank">Klinkerklank</author>
-		<update version="2.1">
+		<update version="2.2">
 			<file name="varethys.xml" url="https://raw.githubusercontent.com/Klinkerklank/dnd-varethys/refs/heads/main/varethys.xml" />
 		</update>
 	</info>
 
 	<!--WEAPONS-->
 
-	<element name="Breathtaker" type="Weapon" source="Varethys" id="ID_VARETHYS_BREATHTAKER">
+	<element name="Breathtaker" type="Magic Item" source="Varethys" id="ID_VARETHYS_BREATHTAKER">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
 		<description>
 			<p>Arcane Bolt: Provides <em>arcane bolt</em> as an action once per short rest, which does an additional 1d6 fire, lightning, cold, or acid damage. Ignores resistance to that damage type.</p>
 			<p>Steampunk: An internal mechanism that makes a zooming or clicking noise. Gives +1 to intimidation checks when <em>Breathtaker</em> is shown.</p>
 			<p>Powder arrows (20gp / set of 10): Bolts with a special coating that have extra effects such as blindness or slowness.</p>
-			<p class="indent"><strong><em>Upgrade[✗]: Optical Scope (30gp).</em></strong> A magnifier that gives +2 to attack rolls for distances greater than 60ft.</p>
-			<p class="indent"><strong><em>Upgrade[✗]: Quick Loader (40gp).</em></strong> Allows for loading an extra bolt as a bonus action, enabling two attacks per turn.</p>
-			<p class="indent"><strong><em>Upgrade[✗]: Elemental Infusion (50gp).</em></strong> </p>
-			<p class="indent"><strong><em>Upgrade[✗]: Akimbo (300gp).</em></strong> Decouple Breathtaker into two hand crossbows that each deal 1d6 piercing damage</p>
+			<p class="indent"><strong><em>Upgrade[X]: Optical Scope (30gp).</em></strong> A magnifier that gives +2 to attack rolls for distances greater than 60ft.</p>
+			<p class="indent"><strong><em>Upgrade[X]: Quick Loader (40gp).</em></strong> Allows for loading an extra bolt as a bonus action, enabling two attacks per turn.</p>
+			<p class="indent"><strong><em>Upgrade[X]: Elemental Infusion (50gp).</em></strong> </p>
+			<p class="indent"><strong><em>Upgrade[X]: Akimbo (300gp).</em></strong> Decouple Breathtaker into two hand crossbows that each deal 1d6 piercing damage</p>
 		</description>
 		<setters>
 			<set name="keywords">crossbow</set>
@@ -39,11 +39,11 @@
 		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
 			<p>Magical Defence: Once per short rest, activating the magical protection of Pangolin gives resistance to one type of damage (fire, lightning, or cold) for 1 hour.</p>
-			<p class="indent"><strong><em>Upgrade[✓]: Reinforced Hinges (100 gold).</em></strong> Increases armour bonus to +2 AC. Provides <em>reflexive shield</em> as a reaction (cooldown 2 turns), which reduces the damage of the enemy attack by 1d4.</p>
-			<p class="indent"><strong><em>Upgrade[✗]: Elemental Infusion (150 gold).</em></strong> Provides <em>elemental blast</em> as an action once per short rest, which does 1d6 fire, lightning, or cold damage in a 10-foot cone.</p>
-			<p class="indent"><strong><em>Upgrade[✗]: Dynamic Cogs (200 gold).</em></strong> When <em>elemental blast</em> is used, movement speed is increased by 10 feet for 1 round.</p>
-			<p class="indent"><strong><em>Upgrade[✗]: Magical Stabiliser (250 gold).</em></strong> Allows <em>elemental blast</em> to be used twice per short rest, with a cooldown of 10 turns.</p>
-			<p class="indent"><strong><em>Upgrade[✗]: Reflective Cage (300 gold).</em></strong> Provides <em>reflect</em> as a reaction (cooldown 3 turns), which negates any damage and reflects 1d6 bludgeoning damage back to the attacker.</p>
+			<p class="indent"><strong><em>Upgrade: Reinforced Hinges (100 gold).</em></strong> Increases armour bonus to +2 AC. Provides <em>reflexive shield</em> as a reaction (cooldown 2 turns), which reduces the damage of the enemy attack by 1d4.</p>
+			<p class="indent"><strong><em>Upgrade[X]: Elemental Infusion (150 gold).</em></strong> Provides <em>elemental blast</em> as an action once per short rest, which does 1d6 fire, lightning, or cold damage in a 10-foot cone.</p>
+			<p class="indent"><strong><em>Upgrade[X]: Dynamic Cogs (200 gold).</em></strong> When <em>elemental blast</em> is used, movement speed is increased by 10 feet for 1 round.</p>
+			<p class="indent"><strong><em>Upgrade[X]: Magical Stabiliser (250 gold).</em></strong> Allows <em>elemental blast</em> to be used twice per short rest, with a cooldown of 10 turns.</p>
+			<p class="indent"><strong><em>Upgrade[X]: Reflective Cage (300 gold).</em></strong> Provides <em>reflect</em> as a reaction (cooldown 3 turns), which negates any damage and reflects 1d6 bludgeoning damage back to the attacker.</p>
 		</description>
 		<setters>
 			<set name="keywords">shield</set>
