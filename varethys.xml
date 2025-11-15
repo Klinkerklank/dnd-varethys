@@ -3,10 +3,38 @@
 	<info>
 		<name>Varethys Custom Aurora Files</name>
 		<author url="https://github.com/Klinkerklank">Klinkerklank</author>
-		<update version="1.0">
+		<update version="2.1">
 			<file name="varethys.xml" url="https://raw.githubusercontent.com/Klinkerklank/dnd-varethys/refs/heads/main/varethys.xml" />
 		</update>
 	</info>
+
+	<!--WEAPONS-->
+
+	<element name="Breathtaker" type="Weapon" source="Varethys" id="ID_VARETHYS_BREATHTAKER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
+		<description>
+			<p>Arcane Bolt: Provides <em>arcane bolt</em> as an action once per short rest, which does an additional 1d6 fire, lightning, cold, or acid damage. Ignores resistance to that damage type.</p>
+			<p>Steampunk: An internal mechanism that makes a zooming or clicking noise. Gives +1 to intimidation checks when <em>Breathtaker</em> is shown.</p>
+			<p>Powder arrows (20gp / set of 10): Bolts with a special coating that have extra effects such as blindness or slowness.</p>
+			<p class="indent"><strong><em>Upgrade[✗]: Optical Scope (30gp).</em></strong> A magnifier that gives +2 to attack rolls for distances greater than 60ft.</p>
+			<p class="indent"><strong><em>Upgrade[✗]: Quick Loader (40gp).</em></strong> Allows for loading an extra bolt as a bonus action, enabling two attacks per turn.</p>
+			<p class="indent"><strong><em>Upgrade[✗]: Elemental Infusion (50gp).</em></strong> </p>
+			<p class="indent"><strong><em>Upgrade[✗]: Akimbo (300gp).</em></strong> Decouple Breathtaker into two hand crossbows that each deal 1d6 piercing damage</p>
+		</description>
+		<setters>
+			<set name="keywords">crossbow</set>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/120</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND</set>
+		</setters>
+	</element>
+
+	<!--ARMOUR-->
+
 	<element name="Pangolin" type="Magic Item" source="Varethys" id="ID_VARETHYS_PANGOLIN">
 		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 		<description>
@@ -33,6 +61,8 @@
 			<stat name="ac:shield" value="2" bonus="shield" />
 		</rules>
 	</element>
+
+	<!--MISCELLANEOUS-->
 
 	<element name="Bob" type="Magic Item" source="Varethys" id="ID_VARETHYS_BOB">
 		<description>
